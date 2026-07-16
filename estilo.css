@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html, body{
+   width: 100%;
+   height: 100%;
+}
+
+body{
+    margin: 0;
+}
+
+.contenedor{
+    max-width: 1200px;
+    margin:0px auto;
+}
+.header, .nav, .footer{
+    width: 100%;
+    padding: 20px 0px;
+
+}
+.header{
+    background-color: black;
+    background-repeat: no-repeat;
+}
+.nav, nav {
+background-color: grey ;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightseagreen;
+}
+
+.nav li a{
+    color: wheat;
+    text-transform: uppercase;
+}
+
+.nav li a:hover{
+    font-size: 20px;
+    text-decoration: dotted;
+    background-color: red;
+
+}
+
+p{
+    margin-bottom: 90px;
+    line-height: 1,6;
+}
+
+.section{
+
+    padding: 20px;
+}
+
+.section, section{
+    float: right;
+    background-color: coral;
+    background-image: url("c:\Users\Usuario\Desktop\Segundo Index\Imagenes para HTML\Section total.png");
+    background-size: cover;
+    width: 70%;
+    height: 100vh;
+}
+
+.aside{
+width: 30%;
+float: right;
+height: 100vh;
+color: red;
+}
+
+.aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightskyblue;
+    width: 30%;
+    float: right;
+    height: 100vh;
+}
+
+.footer{
+background-color: black;
+color:white;
+padding: 2rem;
+}
+
+h1 {
+
+animation: rgb 1s infinite;
+}
+
+@keyframes rgb {
+    0% {
+        color: white;
+    }
+
+    25% {
+        color: lightcyan;
+    }
+
+    50% {
+        color: lightblue;
+    }
+
+    75% {
+        color: lightseagreen;
+    }
+
+    100% {
+        color: blue;
+    }
+}
